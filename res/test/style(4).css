@@ -1,0 +1,10 @@
+@charset "utf-8";
+.pub_footer{ width:990px; margin:auto; text-align:center; background:url(../test/jb_footer.gif) top repeat-x #FFFFFF; padding-top:25px; }
+.pub_footer .banner{ margin-bottom:10px; overflow:hidden;}
+.pub_footer .about{ line-height:22px;}
+.pub_footer .about .copy{ margin-top:0px;}
+.pub_footer .about a{ color:#333333; padding:1px 8px;}
+.pub_footer .about a:hover{ text-decoration:underline;}
+.pub_footer .stat_code{ margin-bottom:10px;}
+.pub_footer .pic_alipay{ margin-bottom:10px;}
+.pub_footer .txt_promo{ line-height:18px; padding-bottom:10px;}

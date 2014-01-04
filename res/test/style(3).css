@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*============================== 头部 ===================================*/
+.moon_header{ width:auto; background:url(../images/header_bg.jpg) center 27px repeat-x;}
+
+/*========================== logo ============================*/
+.moon_header_top02{ width:950px; overflow:hidden; margin:0px auto; height:137px;}
+.moon_header_logo{ width:300px; float:left; height:127px; overflow:hidden; text-align:left; padding-top:10px;}
+.moon_header_topri{ float:right; width:430px;}
+.moon_header_topri .moon_header_tel{ width:265px; float:left; overflow:hidden; text-align:left; height:122px; padding-top:15px;}
+.moon_header_topri .moon_header_cart_box{ width:165px; float:right; height:122px; padding-top:15px;}
+.moon_header_topri .moon_header_cart_box .moon_header_cart{ width:165px; height:98px;}
+.moon_header_topri .moon_header_cart_box .moon_header_cart span{ display:block; float:left;}
+.moon_header_topri .moon_header_cart_box .moon_header_cart span.inp{ background:url(../images/cart_bg.jpg) no-repeat; height:21px; width:83px; color:#757575; line-height:21px; text-align:left; padding-left:33px;}
+.moon_header_topri .moon_header_cart_box .moon_header_cart span.btn a{ background:url(../images/cart_bg.jpg) no-repeat right top; height:21px; width:45px; display:block; cursor:pointer;}
+.moon_header_topri .moon_header_cart_box .moon_header_act{}
+.moon_header_topri .moon_header_cart_box .moon_header_act img{}
+
+
+/*========================== 导航 ============================*/
+.moon_header_nav{ width:950px; margin:0px auto; padding:0px; height:37px;}
+.moon_header_nav .moon_header_navbox{ float:left; width:715px; height:37px; overflow:hidden;}
+.moon_header_nav .moon_header_navbox li{ float:left; font-size:14px; font-family:"黑体"; background:url(../images/nav_line.jpg) no-repeat left center ; padding-left:2px;}
+.moon_header_nav .moon_header_navbox li.first{ float:left; font-size:14px; font-family:"黑体"; background:none; padding:0px;}
+.moon_header_nav .moon_header_navbox li a{ display:block; line-height:37px; color:#fbfbfb; text-decoration:none; padding:0px 18px;}
+.moon_header_nav .moon_header_navbox li a:hover{ background:url(../images/nav_cur.jpg) repeat-x;}
+.moon_header_nav .moon_header_navbox li a.hover{ background:url(../images/nav_cur.jpg) repeat-x;}
+.moon_header_nav .moon_header_nav_act{ background:url(../images/nav_actbg.jpg) no-repeat; width:235px; float:right; height:37px; overflow:hidden;}
+.moon_header_nav .moon_header_nav_act li{ float:left; width:78px; text-align:center; font-size:14px; font-family:"黑体";}
+.moon_header_nav .moon_header_nav_act li a{ color:#fbfbfb; line-height:37px; text-decoration:none;}
+.moon_header_nav .moon_header_nav_act li a:hover{ text-decoration:underline;}
+
+
+
+/*========================== 关键字 ============================*/
+.moon_header_key_box{ width:950px; margin:0px auto; padding:0px; height:34px;}
+.moon_header_key_box .moon_header_key{ float:left; display:block; width:650px; height:34px; overflow:hidden;}
+.moon_header_key_box .moon_header_key li{ float:left; line-height:34px; padding:0px 5px; color:#504E4D;}
+.moon_header_key_box .moon_header_key li a{color:#504E4D; text-decoration:none;}
+.moon_header_key_box .moon_header_key li a:hover{color:#FD6C00;}
+.moon_header_key_box .moon_header_search{ width:295px; height:27px; overflow:hidden; padding-top:7px;}
+.moon_header_key_box .moon_header_search span{ display:block; float:left;}
+.moon_header_key_box .moon_header_search span a{ text-decoration:none; line-height:20px; margin:0px 5px; color:#504E4D;}
+.moon_header_key_box .moon_header_search span a:hover{ text-decoration:underline;}
+.moon_header_key_box .moon_header_search span.search_inp{ background:url(../images/searchbg.jpg) no-repeat; width:167px; padding:2px 5px; height:17px; overflow:hidden;}
+.moon_header_key_box .moon_header_search span.search_inp input{ background:none; border:none; width:167px; height:15px; color:#A7A5A5; text-align:left; line-height:15px;}
+.moon_header_key_box .moon_header_search span.search_btn{}
+.moon_header_key_box .moon_header_search span.search_btn input{ background:url(../images/searchbg.jpg) no-repeat right center; width:58px; border:none; height:21px; cursor:pointer;}

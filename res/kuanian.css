@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{}
+.content{
+	width:100%;
+	height:auto;
+	background:url(body-bg.png) repeat;
+}
+.site-nav{
+	width:100%;
+	height:30px;
+	background:#666;
+}
+.header{
+	width:100%;
+	height:120px;
+	background:#000;
+}
+.banner{
+	background:url(backgroundWholeBack-1500-515.jpg) center top no-repeat;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+}
+.banner img{
+	width:907px;
+	height:auto;
+	border:none;
+}
+.banner-img{
+	width:907px;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+	right:3px;
+	font-size: 0;
+}
+/*抽奖位置需要用到的css*/
+.gift{
+	width:100%;
+	height:auto;
+	background:#ffe508;
+}
+.gift-content{
+	width:1000px;
+	margin:0 auto;
+	background:#ffd105;
+}
+.lottery{
+	width:442px; 
+	height:442px; 
+	position:relative; 
+	margin:0 60px 0 40px;
+	padding:50px 0 50px 0;
+	float:left;
+}
+#disk{
+	width:442px; 
+	height:442px; 
+	background:url("disc-bg.jpg");
+}
+
+#start{
+	width:107px;
+	height:142px;
+	position:absolute; 
+	top:180px; 
+	left:168px;
+}
+.startbtn{
+	text-align: left;
+}
+#start img{
+	cursor:pointer;
+	width:107px;
+	height:142px;
+}
+.package-number{
+	position:absolute;
+	width:70px;
+	height:15px;
+	top:245px;
+	left:184px;
+	border-radius:6px;
+}
+.rules{
+	width:400px;
+	height:200px;
+	float:left;
+	margin:50px 0 0 0;
+}
+.rules-img{
+	width:400px;
+	height:200px;
+}
+/*获奖名单轮播*/
+.title{
+	width:240px;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	font-weight:bold;
+	border-bottom:#7b3a12 solid 1px;
+	color:#7b3a12;
+	text-align:center;
+	line-height:40px;
+	margin:0 auto;
+}
+.number{
+	font-size:20px;
+	color:#900;
+	font-style:italic;
+}
+.list_top{ 
+	width:265px;
+	height:215px;
+	overflow:hidden; 
+	background:#FFF; 
+	float:left;
+	margin-top:20px;
+	margin-left:7px;
+}
+.list_top .Empty{ 
+	width:40px; 
+	height:40px; 
+	float:left;
+}
+.hot{ 
+	width:255px;
+	height:40px;
+	margin-left:15px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.hot ul{ 
+	overflow:hidden; 
+	margin:0;
+	padding:0;
+}
+.hot ul li{	
+	width:240px;
+	height:20px; 
+	float:left; 
+	line-height:20px;
+}
+.name{ 
+	color:#000; 
+	font-size:10px;  
+	font-family:"verdana"; 
+	display:block; 
+	float:left;
+	width:120px; 
+	height:20px; 
+	overflow: hidden; 
+}
+.gift-type{
+	color:#7b3a12; 
+	font-size:10px;  
+	font-family:"verdana"; 
+	display:block; 
+	float:left;
+	width:120px; 
+}
+.pop-type{
+ 	width:320px;
+ 	height:280px;
+ 	background:url(pop-bg.png) repeat;
+}
+.pop-inner-box{
+	width:300px;
+	height:260px;
+	margin:10px 10px 10px 10px;
+        background: url(popbg.jpg) repeat;
+}
+.pop-title{
+	width:300px;
+	height:40px;
+	font-size:14px;
+	font-family: "微软雅黑";
+        color: #fff;
+	background: #c10338;
+	line-height: 40px;
+	font-weight: bold;
+}
+.pop-type-rules{
+	width:300px;
+	height:20px;
+	font-family: "微软雅黑";
+	font-size:12px;
+	color:#000;
+	text-align: center;
+	line-height: 20px;
+}
+.pop-gift-type{
+	width:300px;
+	height:30px;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-size:12px;
+	height:30px;
+	color: #7b3a12;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom:20px;`
+}
+.money{
+	font-size:26px;
+	color:#de002a;
+	font-style:italic;
+}
+.close{
+	display: block;
+	width:90px;
+	height:30px;
+	background: url(confirm.png);
+	border:none;
+	margin: 20px auto 0 auto;
+}
+/*抽奖位置css结束*/
+
+/*左侧导航栏渐变大的css*/
+.pic{
+	display:block; 
+	width:140px;
+	height:384px; 
+	margin:60px 0 0; 
+	padding:10px 10px 15px; 
+	-webkit-transform:rotate(0deg) scale(0.0001); 
+	-moz-transform:rotate(0deg) scale(0.0001); 
+	transform:rotate(0deg) scale(0.0001);
+	transition:all 0.3s ease-in; 
+	border:none;
+}
+.pichover{
+	 -webkit-transform:rotate(0deg) scale(1.0); 
+	 -moz-transform:rotate(0deg) scale(1.0); 
+	 transform:rotate(0deg) scale(1.0);
+}
+/*左侧导航栏渐变大的css结束*/
+
+/*这里是一个商品分类盒子里面需要用到的css*/
+ul{
+	list-style:none;
+}
+.goods-box{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+}
+.goods-tile{
+	background:url(big-title1.png) no-repeat;
+	width:992px;
+	height:100px;
+	text-align:center;
+	line-height:90px;
+    font-family:"微软雅黑";
+	margin:10px auto;
+	color:#d40002;
+	font-weight:700;
+	font-size:30px;
+	letter-spacing:2px;
+}
+.good-list{
+	display:block;
+	float:left;
+	width:240px;
+	height:317px;
+	margin:0 5px 10px 5px;
+}
+.good-list:hover{
+	position:relative;
+	bottom:3px;
+	box-shadow:0px 3px 8px #333333;
+}
+.good-list img{
+	width:100%;
+	height:100%;
+	border:none;
+}
+/*商品盒子中所有的css结束*/
+
+/*底部公司footer*/
+
+
+/*清除浮动*/
+.clear
+{
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+.clearfix:after
+{
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix
+{
+	zoom:1;
+}
+

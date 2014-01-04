@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+/*========================== 浮动公告 ===============================*/
+#kefu_yellow_pop_notice{margin:0px auto; position:fixed; z-index:9999; text-align:center;}
+.kefu_yellow_pop_notice{ width:120px; margin:0px auto; float:left; }
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_tit{ width:120px; overflow:hidden;} 
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_close{ width:120px; overflow:hidden;} 
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_center{ margin:5px 0px; width:120px; overflow:hidden;} 
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body{ width:120px; text-align:center; background:url(../kefu_yellow_bg.gif); padding-bottom:2px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body ul{ padding:0px 12px; width:96px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li{ width:96px;padding:0px; float:left;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li.line{ width:96px;height:18px; overflow:hidden; padding:0px; margin:0px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li dt{ width:96px; font-weight:bold; color:#85724C; padding-bottom:5px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li dt.blue_pop_mobile{ margin:0px auto; width:80px; font-weight:bold; color:#85724C; padding-bottom:5px; white-space:normal; line-height:16px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li dd{ padding:0px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li dd span{ display:block; float:left; vertical-align:middle; margin-right:7px; line-height:25px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li dd span img{ margin:5px 0px 0px 14px;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li dd a{ color:#121212; text-decoration:none;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_body li dd a:hover{ text-decoration:underline;}
+.kefu_yellow_pop_notice .kefu_yellow_pop_notice_time{width:80px; height:17px; overflow:hidden; color:#FBF4B2; padding:20px 20px; margin:0px; background:url(../images/kefu_yellow_time.gif) no-repeat; text-align:center;}
+.kefu_yellow_pop_notice_main { position:absolute; left:-30px; display:none}

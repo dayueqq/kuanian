@@ -1,0 +1,9 @@
+@charset "utf-8";
+.pub_flink{ width:978px; margin:auto; text-align:left; background:url(../test/jb_footer.gif) top center no-repeat; border-top:1px solid #ccc; padding:20px 6px; background-color:#FFFFFF;}
+.pub_flink .tit{ font-size:14px; font-weight:bold; margin-bottom:5px;}	
+.pub_flink .txt_link{ line-height:18px; margin-top:5px; width:940px; margin-top:10px;}
+.pub_flink .txt_link a{ color:#333333;}
+.pub_flink .txt_link a:hover{ text-decoration:underline;}
+.pub_flink .pic_link{ margin-top:1px; display:inline-table;}	
+.pub_flink .pic_link li{ width:115px; height:42px; float:left; _display:inline; margin:5px; margin-bottom:0; border:#CCCCCC 2px solid; padding:2px;}
+.pub_flink .pic_link li img{ width:115px; height:42px; }

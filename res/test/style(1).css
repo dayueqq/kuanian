@@ -1,0 +1,14 @@
+@charset "utf-8";
+.pub_faqw{ width:990px; margin:auto; text-align:left; background-color:#FFFFFF;}
+.recommso{ width:945px; margin:auto; margin-top:10px; text-align:left; padding-left:5px; padding-top:5px;}
+.recommso a.hf { color: #1859A5;}
+.recommso a.hf:hover { color: #ff6600; text-decoration:underline;}
+.recommso .jianyi{padding-left: 18px; background: url(../ico-talk.gif) no-repeat scroll 0pt 4px transparent; padding-top:5px; }
+
+.aboutfaq{ width:945px; margin:auto; padding-bottom:20px; border-top:1px solid #e3e3e3; overflow:hidden;}
+.aboutfaq ul{ margin:20px 24px 0; float:left; _margin-left:20px;}
+.aboutfaq ul li{ width:140px; height:22px; line-height:22px; text-align:left; overflow:hidden;}
+.aboutfaq ul li.about_title{ height:30px; font-size:14px; font-weight:bold; line-height:30px;}
+.aboutfaq ul li a{ color:#999999;}
+.aboutfaq ul li a:hover{ text-decoration:underline;}
+.aboutfaq ul li.about_title a{ color:#666666;}
