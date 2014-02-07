@@ -17,11 +17,20 @@ body{}
 }
 .header{
 	width:100%;
-	height:120px;
-	background:#000;
+	height:92px;
+	background:url(header-bg.jpg) repeat-x;
+	overflow:hidden;
+}
+.header-img{
+	display:block;
+	border:none;
+	width:1004px;
+	height:92px;
+	margin:0 auto;
+	font-size:0;
 }
 .banner{
-	background:url(backgroundWholeBack-1500-515.jpg) center top no-repeat;
+	background:url(banner-bg.jpg) top center no-repeat;
 	width:100%;
 	height:auto;
 	margin:0 auto;
@@ -36,9 +45,9 @@ body{}
 	width:907px;
 	height:auto;
 	margin:0 auto;
+	font-size:0;
 	position:relative;
-	right:3px;
-	font-size: 0;
+	right:1px;
 }
 /*抽奖位置需要用到的css*/
 .gift{
